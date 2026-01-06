@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kapakana:wght@300..400&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-blue-950 text-white font-sora tracking-wider;
+}
+
+section {
+    @apply py-20 md:py-28;
+}
+
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold font-archivo;
+}
+
+h2 {
+    @apply text-2xl md:text-3xl xl:text-4xl font-archivo;
+}
+
+h3 {
+    @apply text-xl md:text-2xl xl:text-3xl font-archivo;
+}
+
+.nav-link {
+    @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+    @apply text-yellow-500;
+}
+
+.title {
+    @apply font-archivo text-blue-950;
+}
+
+.btn {
+    @apply border border-white bg-white rounded-md px-5 py-2 duration-300;
+}
+
+.btn span {
+    @apply font-bold;
+}
+
+.btn:hover {
+    @apply opacity-90;
+}
